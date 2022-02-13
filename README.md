@@ -1,3 +1,5 @@
+
+
 # Todo CLI App
 
 ## Introduction
@@ -23,4 +25,22 @@ Flags:
   -t, --toggle            Help message for toggle
 
 Use "todocli [command] --help" for more information about a command.
+```
+
+## How to run
+
+1. Build source code to executable program
+
+```
+go build
+```
+2. Run executable program
+```
+./todocli [command] 
+```
+
+For example:
+
+```
+./todocli add "todo 1"
 ```
