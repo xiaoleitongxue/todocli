@@ -18,7 +18,7 @@ var dataFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "todocli",
+	Use:   "todo",
 	Short: "A brief description of your application",
 	Long: `Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
